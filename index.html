@@ -1,0 +1,2684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/977b193dda.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    <title>Coin360</title>
+</head>
+
+<body>
+
+    <header id="hhh">
+
+
+
+        <section class="sec-1300px">
+            <input class="form-more-to-show" id="input-search" type="search" placeholder="Search BTC or Bitcoin">
+            <div class="d-1-sec-1300px" id="d-1-sec-1300px">
+                <button onclick="shownavitems()" class="btnmoreitemsnav"><i
+                        class="	fa fa-navicon btnmoreitemsnav"></i></button>
+
+
+                <div class="navbar-items itemnav" id="navbar">
+                    <div>
+                        <img src="img/logo.svg" alt="" class="itemnav">
+                    </div>
+                    <div class="nav-item-i itemnav">
+                        <div class="item-nav itemnav">
+                            <a href="#" class="itemnav">Coins</a>
+                            <a href="#" class="itemnav">Exchanges</a>
+                            <a href="#" class="itemnav">Watchlist</a>
+                            <a href="#" class="itemnav">Liquidity Book</a>
+                            <a href="#" class="itemnav">Charts</a>
+                            <a href="#" class="itemnav">Press Releases</a>
+                            <a href="#" class="itemnav">Events</a>
+                            <a href="#" class="itemnav">FAQ</a>
+                            <a href="#" class="itemnav" onclick="moreitemabout()">About <i
+                                    class="	fa fa-angle-down itemnav" id="i-about"></i></a>
+
+                            <div class="item-about itemnav" id="items-about">
+                                <a href="#" class="itemnav">General Info</a>
+                                <a href="#" class="itemnav">Careers</a>
+                                <a href="#" class="itemnav">Methodology</a>
+                                <a href="#" class="itemnav">Liquidity Book</a>
+                                <a href="#" class="itemnav">Press Kit</a>
+                                <a href="#" class="itemnav">Changelog</a>
+                                <a href="#" class="itemnav">Privacy Policy</a>
+                            </div>
+
+
+                            <a href="#" class="a-green itemnav">Advertising</a>
+                            <a href="#" class="a-red itemnav">Newsletter</a>
+                        </div>
+
+                        <div class="i-p-navbar itemnav">
+                            <div class="i-navbar">
+                                <i class="	fab fa-telegram-plane itemnav"></i>
+                                <i class="	fab fa-twitter itemnav"></i>
+                                <i class="material-icons itemnav">email</i>
+                            </div>
+
+                            <div class="p-navbar itemnav">
+                                <p class="itemnav">Copyright © 2022 Coin360.com All Rigths Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <img src="img/logo.svg" alt="">
+                <div>
+                    <i class="material-icons i1-d-1-sec-1300px">view_quilt</i>
+                    <i class="material-icons i2-d-1-sec-1300px">view_list</i>
+                </div>
+            </div>
+
+            <div class="d-2-sec-1300px">
+                <i class="material-icons form-more-to-show" onclick="showiteminput2()"> search</i>
+                <i class="fab fa-btc"></i>
+            </div>
+
+
+        </section>
+
+        <i class="material-icons " id="i-close"> close</i>
+        <div class="items-input form-more-to-show form-long-to-show" id="items-input">
+
+
+
+
+
+
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-1-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Bitcoin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">BTC</p>
+                    <i class="	fas fa-star form-more-to-show" id="i-star" onclick="iwhite()"></i>
+
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-2-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Ethereum</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ETH</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-3-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Tether</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">USDT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-4-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">USD Coin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">BNB</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-5-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Binance Coin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">USDC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-6-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Ripple</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XRP</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-7-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Binance USD</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">BUSD</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-8-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Cardano</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ADA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-9-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Solana</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">SOL</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-10-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Dogecoin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">DOGE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-11-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Polkadot</p>
+
+                </div>
+
+                <div class="d-i">
+
+                    <p class=" form-more-to-show p1-d-2-hide">DOT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-12-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Wrapped Bitcoin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">WBTC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-13-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">TRON</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">AVAX</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-14-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Dai</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">TRX</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-15-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Avalanche</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">STETH</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-16-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Lido StETCH</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">DAI</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-17-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">SHIBA UNI</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">SHIB</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-18-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Unus Sed Leo</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">MATIC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-19-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Polygon</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">LTC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-20-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Litecoin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">CRO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-21-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Crypto.Com Chain</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">LEO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-22-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">FTX Token</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">NEAR</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-23-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Uniswap</p>
+
+                </div>
+
+                <div class="d-i">
+
+                    <p class=" form-more-to-show p1-d-2-hide">FTT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-24-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">NEAR Protocol</p>
+
+                </div>
+
+                <div class="d-i">
+
+                    <p class=" form-more-to-show p1-d-2-hide">UNI</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-25-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Bitcoin Cash</p>
+
+                </div>
+
+                <div class="d-i">
+
+                    <p class=" form-more-to-show p1-d-2-hide">BCH</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-26-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Monero</p>
+
+                </div>
+
+                <div class="d-i">
+
+                    <p class=" form-more-to-show p1-d-2-hide">XMR</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-27-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">DREP</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">LINK</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-28-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Ethereum Classic</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ETC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-29-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Stellar Lumens</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XLM</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-30-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Chainlink</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ATOM</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-31-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Terra USD</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">FLOW</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-32-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Cosmos</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ALGO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-33-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Algorand</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">DREP</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-34-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Tezos</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">UST</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-35-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">The Graph</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">APE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-36-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Vechain</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">VET</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-37-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Horizen</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">EGLD</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-38-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Celo</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">MANA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-39-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Gala</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ICP</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-40-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">AMP</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XTZ</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-41-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">NEO</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">FIL</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-42-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">OKB</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">HBAR</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-43-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">STEPN</p>
+                </div>
+
+                <div class="d-i">
+
+                    <p class=" form-more-to-show p1-d-2-hide">TONCOIN</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-44-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Chiliz</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">KCS</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-45-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Nexo</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">SAND</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img class="d-img" src="img/coin-46-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Qtum</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ZEC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-47-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">UMA</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">FRAX</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-48-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Livepeer</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">AAVE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-49-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Bancor</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">EOS</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-50-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Ontology</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">KLAY</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-51-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">VAX</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">AXC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-52-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Aoine</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">MKR</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-53-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Dexe</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">THETA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-54-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">ChainX</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">TUSD</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-55-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">LATOKEN</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">HT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-56-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Gifto</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">BTT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-57-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Solend</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">GRT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-58-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">SUKU</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">FTM</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-59-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">GOChain</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">BSV</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-60-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">PowerPol</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">RUNE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">BitKan</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+                    <p class="p1-d-2-hide form-more-to-show">USDP</p>
+                    <i class=" form-more-to-show 	fas fa-star"></i>
+
+                </div>
+
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-62-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Auctus</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XEC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-63-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Argon</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">IOTA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-64-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">YEE</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">CAKE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-65-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">KeyFI</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">HNT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-66-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Snowball</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XRD</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-67-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Patientory</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">GMT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-68-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Blockpass</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">USDN</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-69-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Fabwelt</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">NEO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-70-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">ZrCoin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">QNT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-71-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Stox</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">LRC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-72-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Creo Engine</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">OKB</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-73-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">BALpha</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">STX</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-74-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Fanstime</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">CHZ</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-75-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Domraider</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">KSM</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-76-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Totemfi</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">NEXO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-77-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Gamerce</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">DASH</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-78-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">WeTrust</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ZIL</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-79-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Opair</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">CVX</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-80-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Qbao</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">PAXG</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-81-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Russia COin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">LUNA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-82-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">FLIP</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ENJ</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-83-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Lepricon</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">CELO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-84-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Filecash</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">WAVSE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-85-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Unifarm</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">BAT</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-86-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Sator</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">KAVA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-87-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">KeyTango</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">ONE</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-88-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Pivot Token</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">CRV</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-89-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Cryptopay</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">GALA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-90-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Nectar</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">AMP</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-91-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">EnterCoin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">GNO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-92-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">FuzeX</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">MINA</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Beyondfi</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+                    <p class="p1-d-2-hide form-more-to-show">FARM</p>
+                    <i class=" form-more-to-show 	fas fa-star"></i>
+                </div>
+
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-93-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Bonfi</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XDC</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-95-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Zeepin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">AR</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-96-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Debit Coin</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">DCAR</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-97-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Zuki Moba</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">COMP</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-99-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Agrello</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">OSMO</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show">
+                <div class="d-img form-more-to-show">
+                    <img src="img/" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Bitgear</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">WEMIX</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+            <div class="d-item-img-i form-more-to-show" id="d-item-img-i-akhar">
+                <div class="d-img form-more-to-show">
+                    <img src="img/coin-100-hide.png" alt="" class="form-more-to-show">
+                    <p class="form-more-to-show">Playermon</p>
+                </div>
+
+                <div class="d-i form-more-to-show">
+
+                    <p class=" form-more-to-show p1-d-2-hide ">XEM</p>
+                    <i class="	fas fa-star form-more-to-show"></i>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <section class="sec-1-header">
+
+            <div class="d-1-sec-1-header">
+                <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                <ul>
+                    <li><a href="#">Coins</a></li>
+                    <li><a href="#">Exchanges</a></li>
+                    <li><a href="#">Watchlist</a></li>
+                    <li><a href="#" class="a-4-header">Advertising</a></li>
+                    <li><a href="#" class="a-5-header">Newsletter</a></li>
+                </ul>
+
+
+
+
+
+                <button onclick="showmoreheadertop()" class="btnmoretop"><i class="material-icons btnmoretop" id="hhhh">
+                        more_horiz</i></button>
+
+
+
+
+            </div>
+
+
+
+            <div class="d-2-sec-1-header">
+
+                <form action="" class="form-more-to-show">
+                    <i class="material-icons i-input form-more-to-show">search</i>
+                    <input class="form-more-to-show" type="search" placeholder="Search BTC or Bitcoin"
+                        onclick="showiteminput()">
+                </form>
+
+
+
+                <a href=""><i class="fab fa-telegram-plane"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="material-icons">share</i></a>
+
+
+            </div>
+
+        </section>
+
+        <div class="d-more-to-show" id="d-more-to-show">
+
+            <div>
+                <a href="#">Liquidity book</a>
+                <p>Search for the best liquidity available on major exchanges.</p>
+            </div>
+
+            <div>
+                <a href="#">Charts</a>
+                <p>Explore more data on digital asset markets with comprehensive graphs.</p>
+            </div>
+
+            <div>
+                <a href="#">About</a>
+                <p>Explore the general essentional of COIN360.</p>
+            </div>
+
+            <div>
+                <a href="#">Press Releases</a>
+                <p>Stay tuned for crypto company update</p>
+            </div>
+
+            <div>
+                <a href="#">Events</a>
+                <p>Find out about upcoming crypto event in this section.</p>
+            </div>
+
+            <div>
+                <a href="#">FAQ</a>
+                <p>Find answers to the most common question regarding COIN360. </p>
+            </div>
+        </div>
+
+        <section class="sec-2-header">
+
+            <div class="d-1-sec-2-header">
+                <div class="d-btn-sec-2-header">
+                    <button class="btn-sec-2-header" onclick="showmoreheaderbottom()" title="Hide filters"><i
+                            class="fa fa-angle-left" id="i-header-bottom"></i></button>
+                </div>
+
+
+                <div id="slider-btns-to-show">
+                    <button onclick="showmoresliderdive1()" class="btnslider1">
+                        <p class="gray btnslider1">Type:</p>
+                        <p class="white btnslider1">Coin and tokens</p><i class="fa fa-angle-down" id="i1-slider"></i>
+                    </button>
+
+                    <div class="more-slider-header-bottom d-1-more-slider" id="more-Type">
+                        <div>
+                            <i class="material-icons">check</i>
+                            <p>Coin and tokens</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>Coins</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>Tokens</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <button onclick="showmoresliderdive2()" class="btnslider2">
+                        <p class="gray btnslider2">Performance:</p>
+                        <p class="white btnslider2">1 day</p><i class="fa fa-angle-down" id="i2-slider"></i>
+                    </button>
+
+
+                    <div class="more-slider-header-bottom d-2-more-slider" id="performance">
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>1 hour</p>
+                        </div>
+                        <div>
+                            <i class="material-icons">check</i>
+                            <p>1 day</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>7 days</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>1 month</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>Select coustom date...</p>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <button onclick="showmoresliderdive3()" class="btnslider3">
+                        <p class="gray btnslider3">Gainers & Losers:</p>
+                        <p class="white btnslider3">All</p><i class="fa fa-angle-down" id="i3-slider"></i>
+                    </button>
+
+
+                    <div class="more-slider-header-bottom d-3-more-slider" id="gainers">
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>all</p>
+                        </div>
+                        <div>
+                            <i class="material-icons">check</i>
+                            <p>50 losers</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>100 losers</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>200 losers</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>50 gainers</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>100 gainers</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>200 gainers</p>
+                        </div>
+                    </div>
+
+
+
+                    <button onclick="showmoresliderdive4()" class="btnslider4">
+                        <p class="gray btnslider4">Block Size:</p>
+                        <p class="white btnslider4">Market Cap</p><i class="fa fa-angle-down" id="i4-slider"></i>
+                    </button>
+
+
+                    <div class="more-slider-header-bottom d-4-more-slider" id="block-size">
+                        <div>
+                            <i class="material-icons">check</i>
+                            <p>market cap</p>
+                        </div>
+                        <div>
+                            <i class="material-icons"></i>
+                            <p>volume</p>
+                        </div>
+
+                    </div>
+
+                    <button onclick="showmoresliderdive5()" class="btnslider5">
+                        <p class="white btnslider5">M.cap range</p><i class="fa fa-angle-down" id="i5-slider"></i>
+                    </button>
+
+
+                    <div class="more-slider-header-bottom d-5-more-slider" id="m.cap-range">
+
+                        <div class="d-1-d-5-more-slider">
+                            <p class="gray">from</p>
+                            <p class="white">0$</p>
+                            <p class="gray">to</p>
+                            <p class="white">570.0b</p>
+
+                            <a href="#" class="a-1-range">Reset</a>
+                            <a href="#" class="a-2-range">Apply</a>
+                        </div>
+
+
+                        <div class="d-2-d-5-more-slider">
+
+
+                            <input type="range" min="0" max="570000000000000" value="570000000000000">
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                    <button onclick="showmoresliderdive6()" class="btnslider6">
+                        <p class="gray btnslider6">Hide</p><i class="fa fa-angle-down" id="i6-slider"></i>
+                    </button>
+
+
+                    <div class="more-slider-header-bottom d-6-more-slider" id="hide">
+
+                        <div class="d-1-hide">
+                            <input type="search" placeholder="Search">
+                            <button>Reset</button>
+
+
+                        </div>
+                        <div class="d-2-hide">
+
+                            <div><img src="img/coin-1-hide.png" alt="">
+                                <p class="p1-d-2-hide">BTC</p>
+                                <p class="p2-d-2-hide">Bitcoin</p>
+                            </div>
+
+
+                            <div><img src="img/coin-2-hide.png" alt="">
+                                <p class="p1-d-2-hide">ETH</p>
+                                <p class="p2-d-2-hide">Ether...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-3-hide.png" alt="">
+                                <p class="p1-d-2-hide">USDT</p>
+                                <p class="p2-d-2-hide">Tet...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-4-hide.png" alt="">
+                                <p class="p1-d-2-hide">BNB</p>
+                                <p class="p2-d-2-hide">Binan..</p>
+                            </div>
+
+
+                            <div><img src="img/coin-5-hide.png" alt="">
+                                <p class="p1-d-2-hide">USDC</p>
+                                <p class="p2-d-2-hide">Us...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-6-hide.png" alt="">
+                                <p class="p1-d-2-hide">XRP</p>
+                                <p class="p2-d-2-hide">Rpple.</p>
+                            </div>
+
+
+                            <div><img src="img/coin-7-hide.png" alt="">
+                                <p class="p1-d-2-hide">BUSD</p>
+                                <p class="p2-d-2-hide">Bin...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-8-hide.png" alt="">
+                                <p class="p1-d-2-hide">ADA</p>
+                                <p class="p2-d-2-hide">Carda...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-9-hide.png" alt="">
+                                <p class="p1-d-2-hide">SOL</p>
+                                <p class="p2-d-2-hide">Solana</p>
+                            </div>
+
+
+                            <div><img src="img/coin-10-hide.png" alt="">
+                                <p class="p1-d-2-hide">DOGE</p>
+                                <p class="p2-d-2-hide">Dog...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-11-hide.png" alt="">
+                                <p class="p1-d-2-hide">DOT</p>
+                                <p class="p2-d-2-hide">Polka...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-12-hide.png" alt="">
+                                <p class="p1-d-2-hide">WBTC</p>
+                                <p class="p2-d-2-hide">Wr...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-13-hide.png" alt="">
+                                <p class="p1-d-2-hide">AVAX</p>
+                                <p class="p2-d-2-hide">TRON</p>
+                            </div>
+
+
+                            <div><img src="img/coin-14-hide.png" alt="">
+                                <p class="p1-d-2-hide">TRX</p>
+                                <p class="p2-d-2-hide">Aval...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-15-hide.png" alt="">
+                                <p class="p1-d-2-hide">STETH</p>
+                                <p class="p2-d-2-hide">Li...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-16-hide.png" alt="">
+                                <p class="p1-d-2-hide">DAI</p>
+                                <p class="p2-d-2-hide">Di</p>
+                            </div>
+
+
+                            <div><img src="img/coin-17-hide.png" alt="">
+                                <p class="p1-d-2-hide">SHIB</p>
+                                <p class="p2-d-2-hide">SHIB...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-18-hide.png" alt="">
+                                <p class="p1-d-2-hide">MATIC</p>
+                                <p class="p2-d-2-hide">po...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-19-hide.png" alt="">
+                                <p class="p1-d-2-hide">LTC</p>
+                                <p class="p2-d-2-hide">Litecoi...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-20-hide.png" alt="">
+                                <p class="p1-d-2-hide">CRO</p>
+                                <p class="p2-d-2-hide">Crypt...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-21-hide.png" alt="">
+                                <p class="p1-d-2-hide">LEO</p>
+                                <p class="p2-d-2-hide">Unus...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-22-hide.png" alt="">
+                                <p class="p1-d-2-hide">NEAR</p>
+                                <p class="p2-d-2-hide">NE...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-23-hide.png" alt="">
+                                <p class="p1-d-2-hide">FTT</p>
+                                <p class="p2-d-2-hide">FTXT...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-24-hide.png" alt="">
+                                <p class="p1-d-2-hide">UNI</p>
+                                <p class="p2-d-2-hide">Unisw...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-25-hide.png" alt="">
+                                <p class="p1-d-2-hide">BCH</p>
+                                <p class="p2-d-2-hide">Bitcoi...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-26-hide.png" alt="">
+                                <p class="p1-d-2-hide">XMR</p>
+                                <p class="p2-d-2-hide">Mon...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-27-hide.png" alt="">
+                                <p class="p1-d-2-hide">LINK</p>
+                                <p class="p2-d-2-hide">Chai...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-28-hide.png" alt="">
+                                <p class="p1-d-2-hide">ETC</p>
+                                <p class="p2-d-2-hide">Ether...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-29-hide.png" alt="">
+                                <p class="p1-d-2-hide">XLM</p>
+                                <p class="p2-d-2-hide">Stella...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-30-hide.png" alt="">
+                                <p class="p1-d-2-hide">ATOM</p>
+                                <p class="p2-d-2-hide">Co...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-31-hide.png" alt="">
+                                <p class="p1-d-2-hide">FLOW</p>
+                                <p class="p2-d-2-hide">Flow</p>
+                            </div>
+
+
+                            <div><img src="img/coin-32-hide.png" alt="">
+                                <p class="p1-d-2-hide">ALGO</p>
+                                <p class="p2-d-2-hide">Alg...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-33-hide.png" alt="">
+                                <p class="p1-d-2-hide">DREP</p>
+                                <p class="p2-d-2-hide">DRE...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-34-hide.png" alt="">
+                                <p class="p1-d-2-hide">UST</p>
+                                <p class="p2-d-2-hide">Terra...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-35-hide.png" alt="">
+                                <p class="p1-d-2-hide">APE</p>
+                                <p class="p2-d-2-hide">ApeC...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-36-hide.png" alt="">
+                                <p class="p1-d-2-hide">VET</p>
+                                <p class="p2-d-2-hide">VeCH...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-37-hide.png" alt="">
+                                <p class="p1-d-2-hide">EGLD</p>
+                                <p class="p2-d-2-hide">Elro...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-38-hide.png" alt="">
+                                <p class="p1-d-2-hide">MANA</p>
+                                <p class="p2-d-2-hide">De...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-39-hide.png" alt="">
+                                <p class="p1-d-2-hide">ICP</p>
+                                <p class="p2-d-2-hide">INterne...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-40-hide.png" alt="">
+                                <p class="p1-d-2-hide">XTZ</p>
+                                <p class="p2-d-2-hide">Tezos...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-41-hide.png" alt="">
+                                <p class="p1-d-2-hide">FIL</p>
+                                <p class="p2-d-2-hide">Filecoin...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-42-hide.png" alt="">
+                                <p class="p1-d-2-hide">HBAR</p>
+                                <p class="p2-d-2-hide">He...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-43-hide.png" alt="">
+                                <p class="p1-d-2-hide">TONCOIN</p>
+                                <p class="p2-d-2-hide">.</p>
+                            </div>
+
+
+                            <div><img src="img/coin-44-hide.png" alt="">
+                                <p class="p1-d-2-hide">KCS</p>
+                                <p class="p2-d-2-hide">Kukoi...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-45-hide.png" alt="">
+                                <p class="p1-d-2-hide">SAND</p>
+                                <p class="p2-d-2-hide">The...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-46-hide.png" alt="">
+                                <p class="p1-d-2-hide">ZEC</p>
+                                <p class="p2-d-2-hide">Zcash</p>
+                            </div>
+
+
+                            <div><img src="img/coin-47-hide.png" alt="">
+                                <p class="p1-d-2-hide">FRAX</p>
+                                <p class="p2-d-2-hide">Frax</p>
+                            </div>
+
+
+                            <div><img src="img/coin-48-hide.png" alt="">
+                                <p class="p1-d-2-hide">AAVE</p>
+                                <p class="p2-d-2-hide">Aave</p>
+                            </div>
+
+
+                            <div><img src="img/coin-49-hide.png" alt="">
+                                <p class="p1-d-2-hide">EOS</p>
+                                <p class="p2-d-2-hide">EOS</p>
+                            </div>
+
+
+                            <div><img src="img/coin-50-hide.png" alt="">
+                                <p class="p1-d-2-hide">KLAY</p>
+                                <p class="p2-d-2-hide">Klay...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-51-hide.png" alt="">
+                                <p class="p1-d-2-hide">AXC</p>
+                                <p class="p2-d-2-hide">Axie l...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-52-hide.png" alt="">
+                                <p class="p1-d-2-hide">MKR</p>
+                                <p class="p2-d-2-hide">Maker</p>
+                            </div>
+
+
+                            <div><img src="img/coin-53-hide.png" alt="">
+                                <p class="p1-d-2-hide">THETA</p>
+                                <p class="p2-d-2-hide">T...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-54-hide.png" alt="">
+                                <p class="p1-d-2-hide">TUSD</p>
+                                <p class="p2-d-2-hide">Tru...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-55-hide.png" alt="">
+                                <p class="p1-d-2-hide">HT</p>
+                                <p class="p2-d-2-hide">Huobi T...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-56-hide.png" alt="">
+                                <p class="p1-d-2-hide">BTT</p>
+                                <p class="p2-d-2-hide">BitTor...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-57-hide.png" alt="">
+                                <p class="p1-d-2-hide">GRT</p>
+                                <p class="p2-d-2-hide">The G...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-58-hide.png" alt="">
+                                <p class="p1-d-2-hide">FTM</p>
+                                <p class="p2-d-2-hide">Fanto...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-59-hide.png" alt="">
+                                <p class="p1-d-2-hide">BSV</p>
+                                <p class="p2-d-2-hide">Bitcoi...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-60-hide.png" alt="">
+                                <p class="p1-d-2-hide">RUNE</p>
+                                <p class="p2-d-2-hide">TH...</p>
+                            </div>
+
+
+                            <div><img src="img/" alt="">
+                                <p class="p1-d-2-hide">USDP</p>
+                                <p class="p2-d-2-hide">Pax...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-62-hide.png" alt="">
+                                <p class="p1-d-2-hide">XEC</p>
+                                <p class="p2-d-2-hide">Ecash...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-63-hide.png" alt="">
+                                <p class="p1-d-2-hide">IOTA</p>
+                                <p class="p2-d-2-hide">MIO...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-64-hide.png" alt="">
+                                <p class="p1-d-2-hide">CAKE</p>
+                                <p class="p2-d-2-hide">Pan...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-65-hide.png" alt="">
+                                <p class="p1-d-2-hide">HNT</p>
+                                <p class="p2-d-2-hide">Heliu...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-66-hide.png" alt="">
+                                <p class="p1-d-2-hide">XRD</p>
+                                <p class="p2-d-2-hide">Redix...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-67-hide.png" alt="">
+                                <p class="p1-d-2-hide">GMT</p>
+                                <p class="p2-d-2-hide">STEP...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-68-hide.png" alt="">
+                                <p class="p1-d-2-hide">USDN</p>
+                                <p class="p2-d-2-hide">Ne...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-69-hide.png" alt="">
+                                <p class="p1-d-2-hide">NEO</p>
+                                <p class="p2-d-2-hide">NEO</p>
+                            </div>
+
+
+                            <div><img src="img/coin-70-hide.png" alt="">
+                                <p class="p1-d-2-hide">QNT</p>
+                                <p class="p2-d-2-hide">Quant</p>
+                            </div>
+
+
+                            <div><img src="img/coin-71-hide.png" alt="">
+                                <p class="p1-d-2-hide">LRC</p>
+                                <p class="p2-d-2-hide">Loopri...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-72-hide.png" alt="">
+                                <p class="p1-d-2-hide">OKB</p>
+                                <p class="p2-d-2-hide">OKB</p>
+                            </div>
+
+
+                            <div><img src="img/coin-73-hide.png" alt="">
+                                <p class="p1-d-2-hide">STX</p>
+                                <p class="p2-d-2-hide">Stacks</p>
+                            </div>
+
+
+                            <div><img src="img/coin-74-hide.png" alt="">
+                                <p class="p1-d-2-hide">CHZ</p>
+                                <p class="p2-d-2-hide">Chiliz</p>
+                            </div>
+
+
+                            <div><img src="img/coin-75-hide.png" alt="">
+                                <p class="p1-d-2-hide">KSM</p>
+                                <p class="p2-d-2-hide">Kusa...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-76-hide.png" alt="">
+                                <p class="p1-d-2-hide">NEXO</p>
+                                <p class="p2-d-2-hide">Nex...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-77-hide.png" alt="">
+                                <p class="p1-d-2-hide">DASH</p>
+                                <p class="p2-d-2-hide">Das...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-78-hide.png" alt="">
+                                <p class="p1-d-2-hide">ZIL</p>
+                                <p class="p2-d-2-hide">Zilliqa</p>
+                            </div>
+
+
+                            <div><img src="img/coin-79-hide.png" alt="">
+                                <p class="p1-d-2-hide">CVX</p>
+                                <p class="p2-d-2-hide">Conv...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-80-hide.png" alt="">
+                                <p class="p1-d-2-hide">PAXG</p>
+                                <p class="p2-d-2-hide">PAX...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-81-hide.png" alt="">
+                                <p class="p1-d-2-hide">LUNA</p>
+                                <p class="p2-d-2-hide">Terra</p>
+                            </div>
+
+
+                            <div><img src="img/coin-82-hide.png" alt="">
+                                <p class="p1-d-2-hide">ENJ</p>
+                                <p class="p2-d-2-hide">Enjin...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-83-hide.png" alt="">
+                                <p class="p1-d-2-hide">CELO</p>
+                                <p class="p2-d-2-hide">Celo</p>
+                            </div>
+
+
+                            <div><img src="img/coin-84-hide.png" alt="">
+                                <p class="p1-d-2-hide">WAVSE</p>
+                                <p class="p2-d-2-hide">W...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-85-hide.png" alt="">
+                                <p class="p1-d-2-hide">BAT</p>
+                                <p class="p2-d-2-hide">Basic...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-86-hide.png" alt="">
+                                <p class="p1-d-2-hide">KAVA</p>
+                                <p class="p2-d-2-hide">KAVA</p>
+                            </div>
+
+
+                            <div><img src="img/coin-87-hide.png" alt="">
+                                <p class="p1-d-2-hide">ONE</p>
+                                <p class="p2-d-2-hide">Harm...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-88-hide.png" alt="">
+                                <p class="p1-d-2-hide">CRV</p>
+                                <p class="p2-d-2-hide">Curve...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-89-hide.png" alt="">
+                                <p class="p1-d-2-hide">GALA</p>
+                                <p class="p2-d-2-hide">Gala</p>
+                            </div>
+
+
+                            <div><img src="img/coin-90-hide.png" alt="">
+                                <p class="p1-d-2-hide">AMP</p>
+                                <p class="p2-d-2-hide">Amp</p>
+                            </div>
+
+
+                            <div><img src="img/coin-91-hide.png" alt="">
+                                <p class="p1-d-2-hide">GNO</p>
+                                <p class="p2-d-2-hide">Gnos...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-92-hide.png" alt="">
+                                <p class="p1-d-2-hide">MINA</p>
+                                <p class="p2-d-2-hide">Mina</p>
+                            </div>
+
+
+                            <div><img src="img/" alt="">
+                                <p class="p1-d-2-hide">FARM</p>
+                                <p class="p2-d-2-hide">har...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-93-hide.png" alt="">
+                                <p class="p1-d-2-hide">XDC</p>
+                                <p class="p2-d-2-hide">XDC...</p>
+                            </div>
+
+
+
+                            <div><img src="img/coin-95-hide.png" alt="">
+                                <p class="p1-d-2-hide">AR</p>
+                                <p class="p2-d-2-hide">Arweave</p>
+                            </div>
+
+
+                            <div><img src="img/coin-96-hide.png" alt="">
+                                <p class="p1-d-2-hide">DCAR</p>
+                                <p class="p2-d-2-hide">Decre...</p>
+                            </div>
+
+
+                            <div><img src="img/coin-97-hide.png" alt="">
+                                <p class="p1-d-2-hide">COMP</p>
+                                <p class="p2-d-2-hide">Co...</p>
+                            </div>
+
+
+
+                            <div><img src="img/coin-99-hide.png" alt="">
+                                <p class="p1-d-2-hide">OSMO</p>
+                                <p class="p2-d-2-hide">Os...</p>
+                            </div>
+
+                            <div><img src="img/" alt="">
+                                <p class="p1-d-2-hide">WEMIX</p>
+                                <p class="p2-d-2-hide">W...</p>
+                            </div>
+
+
+
+                            <div><img src="img/coin-100-hide.png" alt="">
+                                <p class="p1-d-2-hide">XEM</p>
+                                <p class="p2-d-2-hide">NEM</p>
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <button onclick="" class="btn-rest">
+                        <p class="gray">Reset</p>
+                    </button>
+                </div>
+
+
+            </div>
+
+
+            <div class="d-2-sec-2-header">
+
+
+                <button onclick="showcounrty()" class="btncountry">
+                    <img src="img/america.svg" alt="" class="btncountry">
+                    <p class="btncountry">USD</p><i class="fa fa-angle-down btncountry" id="i-country"></i>
+                </button>
+
+
+                <div class="chose-country" id="country">
+
+                    <div class="country">
+                        <div>
+                            <img src="img/america.svg" alt="">
+                            <p>USD</p>
+                        </div>
+
+                        <div>
+                            <img src="img/EUR-filter-basecurrency.svg" alt="">
+                            <p>EUR</p>
+                        </div>
+
+                        <div>
+                            <img src="img/GBP-filter-basecurrency.svg" alt="">
+                            <p>GBP</p>
+                        </div>
+
+                        <div>
+                            <img src="img/CNY-filter-basecurrency.svg" alt="">
+                            <p>CNY</p>
+                        </div>
+
+                        <div>
+                            <img src="img/JPY-filter-basecurrency.svg" alt="">
+                            <p>JPY</p>
+                        </div>
+
+                        <div>
+                            <img src="img/CAD-filter-basecurrency.svg" alt="">
+                            <p>CAD</p>
+                        </div>
+
+                        <div>
+                            <img src="img/BRL-filter-basecurrency.svg" alt="">
+                            <p>BRL</p>
+                        </div>
+
+                        <div>
+                            <img src="img/TRY-filter-basecurrency.svg" alt="">
+                            <p>TRY</p>
+                        </div>
+
+                        <div>
+                            <img src="img/RUB-filter-basecurrency.svg" alt="">
+                            <p>RUB</p>
+                        </div>
+
+                        <div>
+                            <img src="img/IRR-filter-basecurrency.svg" alt="">
+                            <p>IRR</p>
+                        </div>
+
+                        <div>
+                            <img src="img/UAH-filter-basecurrency.svg" alt="">
+                            <p>UAH</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="ramzarz">
+                        <div>
+                            <img src="img/USDT-filter-basecurrency.svg" alt="">
+                            <p>USDT</p>
+                        </div>
+
+                        <div>
+                            <img src="img/BTC-filter-basecurrency.svg" alt="">
+                            <p>BTC</p>
+                        </div>
+
+                        <div>
+                            <img src="img/ETH-filter-basecurrency.svg" alt="">
+                            <p>ETH</p>
+                        </div>
+
+                        <div>
+                            <img src="img/EOS-filter-basecurrency.svg" alt="">
+                            <p>EOS</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <button onclick="flashgreen()">
+                    <i id="i-flash" class="	fa fa-flash"></i>
+                    <p id="p-flash">Flash</p>
+
+                </button>
+
+                <div class="d-view">
+                    <p>View:</p>
+                    <i class="material-icons">view_quilt</i>
+                    <i class="material-icons">view_list</i>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+    </header>
+
+
+    <main id="main">
+
+
+        <section class="sec-1-main">
+            <h3>SHA256</h3>
+            <div>
+                <h1>BTC</h1>
+                <h2>$29,667.45</h2>
+                <h4>+2.48%</h4>
+            </div>
+            <p>Dominance:43.62%</p>
+        </section>
+        <section class="sec-2-main">
+            <h3>Ethash</h3>
+            <div>
+                <h1>ETH</h1>
+                <h2>$1,967.45</h2>
+                <h4>+1.39%</h4>
+            </div>
+        </section>
+        <section class="sec-3-main">
+            <h3>DBFT</h3>
+            <div>
+                <h1>BNB</h1>
+                <h2>$327.495</h2>
+                <h4>+3.39%</h4>
+            </div>
+        </section>
+        <section class="sec-4-main">
+            <h3>Other</h3>
+            <div>
+                <h1>SOL</h1>
+                <h2>$48.83345</h2>
+                <h4>+.018%</h4>
+            </div>
+        </section>
+        <section class="sec-5-main">
+            <h3>RPCA</h3>
+            <div>
+                <h1>XRP</h1>
+                <h2>$0.478965</h2>
+                <h4>-1.04%</h4>
+            </div>
+        </section>
+        <section class="sec-6-main">
+            <h3>Script</h3>
+            <div>
+                <h1>DOGE</h1>
+                <h2>$0.0875755</h2>
+                <h4>+1.88%</h4>
+            </div>
+        </section>
+        <section class="sec-7-main">
+            <h3>DPoS</h3>
+            <div>
+                <h1>TRX</h1>
+                <h2>$0.0817655</h2>
+                <h4>-3.76%</h4>
+            </div>
+        </section>
+        <section class="sec-8-main">
+            <h3>Ouroboros</h3>
+            <div>
+                <h1>ADA</h1>
+                <h2>$.0553745</h2>
+                <h4>+1.39%</h4>
+            </div>
+        </section>
+        <section class="sec-9-main">
+            <h3>PoS</h3>
+            <div>
+                <h1>ALGO</h1>
+                <h2>$0.025745</h2>
+                <h4>+2.08%</h4>
+            </div>
+        </section>
+        <section class="sec-10-main">
+            <h3>Ethereum Tokens</h3>
+            <div>
+                <h1>USDC</h1>
+                <h2>$1.0000745</h2>
+                <h4>+5.48%</h4>
+            </div>
+        </section>
+        <section class="sec-11-main">
+            <h3>Omni Tokens</h3>
+            <div>
+                <h1>USDT</h1>
+                <h2>$0.999325</h2>
+                <h4>-7.45%</h4>
+            </div>
+        </section>
+        <section class="sec-12-main">
+            <h3>Other Tokens</h3>
+            <div>
+                <h1>STETH</h1>
+                <h2>$1,667.4245</h2>
+                <h4>-4.08%</h4>
+            </div>
+        </section>
+        <section class="sec-13-main">
+            <h3>Binance Tokens</h3>
+            <div>
+                <h1>BUSD</h1>
+                <h2>$1.511245</h2>
+                <h4>+17.48%</h4>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <div class="d-btns-absolute">
+        <button class="btn1-absolute" id="zoomIn">
+            <p>+</p>
+        </button>
+        <button class="btn2-absolute" id="zoomOut">
+            <p>-</p>
+        </button>
+        <button class="btn3-absolute"><i class="material-icons">fullscreen</i></button>
+    </div>
+
+    <footer>
+        <div class="d-1-footer">
+            <button id="zoomOut2">-</button>
+            <button id="zoomIn2">+</button>
+        </div>
+
+        <div class="d-2-footer">
+            <i class="material-icons">share</i><a href="#">Share map</a>
+        </div>
+    </footer>
+
+    <script>
+        var zoom = 1;
+        var zoomStep = 0.5;
+
+        document.getElementById("zoomIn").addEventListener("click", function () {
+            zoom += zoomStep;
+            document.getElementById("main").style.transform = "scale(" + zoom + ")";
+        });
+        document.getElementById("zoomOut").addEventListener("click", function () {
+            if (zoom > zoomStep) {
+                zoom -= zoomStep;
+                document.getElementById("main").style.transform = "scale(" + zoom + ")";
+            }
+        });
+
+        document.getElementById("zoomIn2").addEventListener("click", function () {
+            zoom += zoomStep;
+            document.getElementById("main").style.transform = "scale(" + zoom + ")";
+        });
+        document.getElementById("zoomOut2").addEventListener("click", function () {
+            if (zoom > zoomStep) {
+                zoom -= zoomStep;
+                document.getElementById("main").style.transform = "scale(" + zoom + ")";
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
